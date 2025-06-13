@@ -1,14 +1,14 @@
-function App2() {
-			  return (
+const Ejer1 = () => {
+			return (
 				<div className="container">
-					<h1>Las mejores 4 series que he visto</h1>
+                    <h1>Las mejores 4 series que he visto</h1>
 					<p>
 						No suelo ser una persona muy aficionada a las series, entre ellas hay 4 que me gustan mucho <br/>
 						<ol>
                             <li>Batman and Louis</li>
                             <li>Invincible</li>
-                            
-
+                            <li>The Boys</li>
+                            <li>Stranger Things</li>
                         </ol>
                         
 
@@ -24,7 +24,7 @@ function App2() {
 						<li>Fundamentos de Programación Orientada a Objetos.</li>
 					</ul>
 				</div>
-			  );
-			}
+			);
+		}
 
-			export default App2;
+		export default Ejer1;

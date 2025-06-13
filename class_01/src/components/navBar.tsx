@@ -33,6 +33,9 @@ import {Link} from 'react-router-dom';
 							<li className="nav-item">
 								<Link to="/acercade" className="nav-link">Acerca de</Link>
 							</li>
+							<li className="nav-item">
+								<Link to="/ejer1" className="nav-link">Ejercicio 1</Link>
+							</li>
 						</ul>
 					</div>
 				</nav>

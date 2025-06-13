@@ -9,6 +9,7 @@ import ReactDOM from 'react-dom/client';
 			import Variables from "./pages/variables";			
 			import Funciones from "./pages/funciones";
 			import Modulos from "./pages/modulos";
+			import Ejer1 from "./pages/ejer1";
 
 			const root = ReactDOM.createRoot(
 			  document.getElementById('root') as HTMLElement
@@ -23,6 +24,7 @@ import ReactDOM from 'react-dom/client';
 					  <Route path="/variables" element={<Variables />} />					  
 					  <Route path="/funciones" element={<Funciones />} />
 					  <Route path="/modulos" element={<Modulos />} />
+					  <Route path="/ejer1" element={<Ejer1 />} />
 				  </Routes>
 			  </BrowserRouter>
 			);
